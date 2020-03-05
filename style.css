@@ -28,6 +28,8 @@ body {
 
 .name-and-job-title {
   border-right: 1px solid rgba(0,0,0,.08);
+  padding-right: 2.5rem;
+  border-right: 1px solid rgba(0,0,0,.08);
 }
 
 
@@ -36,7 +38,7 @@ h1 {
   font-size: 2.75rem;
   font-weight: 900;
   letter-spacing: .4rem;
-  color: #54b689;
+  color: #3289c7;
   margin: 0;
 }
 
@@ -74,8 +76,9 @@ i {
   text-align: center;
 }
 
-section {
-  padding-top: .75rem;
+article {
+  padding-right: 2.5rem;
+  border-right: 1px solid rgba(0,0,0,.08);
 }
 
 .section-heading {
@@ -84,7 +87,7 @@ section {
   padding-left: 1rem;
   font-size: 1.125rem;
   letter-spacing: .15rem;
-  color: #54b689;
+  color: #3289c7;
 }
 
 .section-heading:before {
@@ -92,8 +95,26 @@ section {
   display: inline-block;
   width: 5px;
   height: 100%;
-  background: #54b689;
+  background: #3289c7;
   position: absolute;
   left: 0;
   top: 0;
+}
+
+.role-and-period {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+h4 {
+  margin: 0;
+}
+
+.sidebar {
+  padding-left: 1.25rem;
+}
+
+.sidebar span {
+  margin-bottom: .75rem;
+  display: inline-block;
 }
